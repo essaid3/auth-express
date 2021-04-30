@@ -31,7 +31,9 @@ const signupUser = async (req, res) => {
   }
 };
 
-const loginUser = (req, res) => {};
+const loginUser = (req, res) => {
+  console.log("login");
+};
 
 const getInfoUser = (req, res) => {};
 
